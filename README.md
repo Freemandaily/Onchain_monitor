@@ -2,12 +2,12 @@
 **NOTE** 
 This script only decodes the transaction that is routed through **uniswap-universal router @ address of 0xEf1c6E67703c7BD7107eed8303Fbe6EC2554BF6B**
 # Action
-Monitor one or many addresss trade on Uniswap with ease. You can provide as many address you will like to monitor, the script checks every bock produced to know if the specifed addresss has made any transaction . Upon detection of the an addresss activity( uses uniswap unisersal router only), it filters the token bought or sold as the case may be and notify the user through telegram
+Monitor one or many addresss trade(S) on Uniswap with ease. You can provide as many addresses you wish to monitor, the script checks every bock produced to know if the specifed addresss has made any transaction . Upon detection of the an addresss activity, it filters the token bought or sold as the case may be and notify the user through telegram
 
 # Library_Used
-**1** web3.py: install by ( pip install web3)
-**2** uniswap-universal-router-decoder: install by ( pip install uniswap-universal-router-decoder)
-**3**  Telegram: install by ( pip install python-telegram-bot). Interact with telegram bot_Fatherin telegram to setup bot_inbox and to generate bot_token, chat_id is also needed. ( Just a simple google search can direct on how to set this up)
+**1** web3.py: install by ( pip install web3)<br>
+**2** uniswap-universal-router-decoder: install by ( pip install uniswap-universal-router-decoder)<br>
+**3** Telegram: install by ( pip install python-telegram-bot). Interact with telegram bot_Fatherin telegram to setup bot_inbox and to generate bot_token, chat_id is also needed. ( Just a simple google search can direct on how to set this up)
 
 
 
